@@ -10,7 +10,10 @@ class UserRepository {
     required Dio dio,
   }) : _dio = dio;
 
-  Future<List<UserModel>> getUsers({int? page, int? limit}) async {
+  Future<List<UserModel>> getUsers({
+    int? page,
+    int? limit,
+  }) async {
     try {
       debugPrint('buscar pagina $page');
       final result = await _dio
