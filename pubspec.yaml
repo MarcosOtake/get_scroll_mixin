@@ -89,3 +89,9 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+
+  # Para ativar o package de backend: dart pub global activate json_rest_server
+  # Para criar a pasta necessaria para o backend: json_rest_server create ./backend
+  # Para iniciar o backend: json_rest_server run
+  # Para cancelar o backend: ^C -> (shift + C)
